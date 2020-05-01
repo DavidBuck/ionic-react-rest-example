@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "postid": 1,
+      "title": "title 1",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "postid": 2,
+      "title": "title X2",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "postid": 3,
+      "title": "title X3",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "postid": 4,
+      "title": "title X4",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

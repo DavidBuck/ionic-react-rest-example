@@ -1,0 +1,53 @@
+{
+  "name": "ionic-react-rest-example",
+  "version": "1.0.0",
+  "description": "Ionic React REST API example",
+  "author": "David Buck",
+  "repository": "github:davidbuck/ionic-react-rest-example",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@ionic/react": "^5.1.0",
+    "@ionic/react-router": "^5.1.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.37",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "concurrently": "^5.2.0",
+    "ionicons": "^5.0.1",
+    "json-server": "^0.16.1",
+    "prettier": "^1.19.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.1.0",
+    "react-router-dom": "^5.1.0",
+    "react-scripts": "^3.4.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "tslint-react": "^4.1.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "server": "json-server --port 8000 --watch db.json",
+    "start:react": "BROWSER=none  react-scripts start",
+    "start": "concurrently \"npm run server\" \"npm run start:react\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
