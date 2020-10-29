@@ -126,7 +126,7 @@ function Home() {
             <IonText color="primary">Author</IonText>
           </IonCol>
         </IonRow>
-        {posts.map(post => (
+        {posts.map((post) => (
           <IonRow key={post.id}>
             <IonCol sizeMd="2" className="col-border ion-text-center">
               {post.id}
